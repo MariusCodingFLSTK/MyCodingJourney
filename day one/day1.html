@@ -3,14 +3,277 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Website</title>
     <link rel="stylesheet" href="day1.css">
-    <title>Day 1</title>
-
-    
 </head>
 <body>
-   <div class="box-container">
-    
-   </div>
+    <!-- Header Starts Here -->
+    <div class="container">
+        <div class="logo">
+            <img src="Logo.jpg">
+        </div>
+        <div class="nav-links">
+            <span class="logo-a">
+                <img src="map-solid-24.png">
+                <a href="#">Choose Your Destination</a>
+            </span>
+            <span class="logo-a">
+                <img src="plane-take-off-solid-24.png">
+                <a href="#flights">Flights</a>
+            </span>
+            <span class="logo-a">
+                <img src="hotel-solid-24.png">
+                <a href="#hotels">Hotels</a>
+            </span>
+            <span class="logo-a">
+                <img src="car-solid-24.png" alt="">
+                <a href="#car-rental">Car Rental</a>
+            </span>
+        </div>
+    </div>
+    <!-- Header Finishes Here -->
+    <!-- Most 3 liked Cities to visit Starts Here -->
+    <div class="location">
+        <div class="most-liked">
+            <div class="cities">
+                <img src="/cities/miami.jpg" alt="Miami">
+                <details class="description-details">
+                    <summary>More about Miami</summary>
+                    <section id="miami">
+                        <div class="section">
+                            <img src="/cities/Usa Flag.png" alt="Usa Icon">
+                            <p>Miami is located in the southeastern part of the United States</p>
+                        </div>
+                    </section>
+                </details>
+            </div>
+            <div class="cities">
+                <img src="/cities/bucarest.jpg" alt="Bucharest">
+                <details class="description-details">
+                    <summary>More about Bucharest</summary>
+                    <section id="bucharest">
+                        <div class="section">
+                            <img src="/cities/RomaniaFlag.png" alt="Romania Icon">
+                            <p>Bucharest is located in southeastern Europe, in the country of Romania.</p>
+                        </div>
+                    </section>
+                </details>
+            </div>
+            <div class="cities">
+                <img src="/cities/Barcelona.jpg" alt="Barcelona">
+                <details class="description-details">
+                    <summary>More about Barcellona</summary>
+                    <section id="barcelona">
+                        <div class="section">
+                            <img src="/cities/spainFlag.jpg" alt="Barcelona Icon">
+                            <p>Barcelona is located in the northeastern part of Spain, along the Mediterranean coast.</p>
+                        </div>
+                    </section>
+                </details>
+            </div>
+        </div>
+    </div>
+    <!-- Most 3 liked Cities to visit Finishes Here-->
+
+    <!-- Choose Your Destination Starts Here -->
+     <div class="info-container">
+        
+        <div id="hotels">
+            <h2>Hotels</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Avg. Price</th>
+                        <th scope="col">Miami </th>
+                        <th scope="col">Bucharest</th>
+                        <th scope="col">Barcellona</th>
+                        <th scope="col">Rome</th>
+                        <th scope="col">London</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Budget Hotels</td>
+                        <td>$80-150</td>
+                        <td>$30-60</td>
+                        <td>$60-100</td>
+                        <td>$50-100</td>
+                        <td>$70-150</td>
+                       
+                    </tr>
+                    <tr>
+                        <td scope="row">Mid-range Hotels</td>
+                        <td>$150-250</td>
+                        <td>$60-120</td>
+                        <td>$120-200</td>
+                        <td> $100-180</td>
+                        <td>$150-250</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Luxury Hotels</td>
+                        <td>$300+</td>
+                        <td>$150+</td>
+                        <td> $250+</td>
+                        <td>$280+</td>
+                        <td>$300+</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+
+        </div>
+        <div id="flights">
+            <h2>The itinerary we recommend is </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Flights: </th>
+                        <th scope="col">Miami to ></th>
+                        <th scope="col">Bucharest to ></th>
+                        <th scope="col">Barcellona to ></th>
+                        <th scope="col">Rome to ></th>
+                        <th scope="col">London to > </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Flights per Day</td>
+                        <td>6</td>
+                        <td>3</td>
+                        <td>5</td>
+                        <td>2</td>
+                        <td>4</td>
+                       
+                    </tr>
+                    <tr>
+                        <td scope="row">Avg. Ticket <strong>($)</strong></td>
+                        <td>746$</td>
+                        <td>220$</td>
+                        <td>153$</td>
+                        <td>312$</td>
+                        <td>612$</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Avg. Delay<strong>(min)</strong></td>
+                        <td>45</td>
+                        <td>22</td>
+                        <td>37</td>
+                        <td>14</td>
+                        <td>8</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Avg. Flight<strong>(h)</strong></td>
+                        <td>11</td>
+                        <td>3</td>
+                        <td>1. 45m</td>
+                        <td>2.3</td>
+                        <td>9</td>
+                    </tr>
+                </tbody>
+                
+            </table>
+        </div>
+        <div id="car-rental">
+            <h2>Car Rental</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Avg. Price</th>
+                        <th scope="col">Miami </th>
+                        <th scope="col">Bucharest</th>
+                        <th scope="col">Barcellona</th>
+                        <th scope="col">Rome</th>
+                        <th scope="col">London</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td scope="row">Budget Car</td>
+                        <td>$25-45</td>
+                        <td>$15-30</td>
+                        <td>$25-50</td>
+                        <td>$25-50</td>
+                        <td>$30-60</td>
+                       
+                    </tr>
+                    <tr>
+                        <td scope="row">Mid-Range Car</td>
+                        <td>$45-90</td>
+                        <td>$30-60</td>
+                        <td>$50-90</td>
+                        <td>$50-90</td>
+                        <td>$60-120</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">Luxury Car</td>
+                        <td>$100-200+</td>
+                        <td>$70-120+</td>
+                        <td>$100-250+</td>
+                        <td>$90-200+</td>
+                        <td>$120-250+</td>
+                    </tr>
+                    
+                </tbody>
+            </table>
+        </div>
+     </div>
+    <div class="containerDestination">
+        <h1>Choose Your Destination Here:</h1>
+    </div>
+ 
+    <!-- Dropdown Menu -->
+    <div class="dropdown">
+        <select id="search" onchange="location = this.value;">
+            <option value="#">Please Select a Location</option>
+            <option value="#">New York</option>
+            <option value="#">Miami</option>
+            <option value="#">Bucharest</option>
+            <option value="#">Rome</option>
+            <option value="#">London</option>
+            <option value="#">Paris</option>
+            <option value="#">Barcelona</option>
+        </select>
+    </div>
+    <!-- Choose Your Destination Finishes Here -->
+    <!-- Maps Section-->
+     <div class="maps-container">
+        <div class="miami">
+            <h2>Miami</h2>
+             <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d291861!2d-80.1917902!3d25.7616798!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9b5e4b9d8c8b9%3A0x8a46f05e7ff7ef4e!2sMiami%2C%20FL%2C%20USA!5e0!3m2!1sen!2s!4v1624464669929!5m2!1sen!2s" 
+                width="500" 
+                height="250" 
+                style="border:1px solid black; border-radius: 9px;"
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <div class="bucharest">
+            <h2>Bucharest</h2>
+             <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d290000!2d26.1025384!3d44.4267674!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40b1ff3f5c3c3c3%3A0x40b1ff3f5c3c3c3!2sBucharest%2C%20Romania!5e0!3m2!1sen!2s!4v1624464486869!5m2!1sen!2s" 
+                width="500" 
+                height="250" 
+                style="border:1px solid black; border-radius: 9px;"
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+        <div class="barcelona">
+            <h2>Barcelona</h2>
+             <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11455.392424538698!2d2.173403!3d41.376321!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a3b5b5a8bfb3%3A0x9c66c86d2e6b1b5a!2sBarcelona%2C%20Spain!5e0!3m2!1sen!2s!4v1624464840739!5m2!1sen!2s" 
+                width="500" 
+                height="250" 
+                style="border:1px solid black; border-radius: 9px;"
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+     </div>
+    <!-- Maps Section Ends Here-->
+   
+
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 </body>
 </html>
