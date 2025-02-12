@@ -260,9 +260,6 @@ tbody td{
     font-size: 14px;
 }
 
-
-
-
 .maps-container{
     padding: 2vw;
     display: flex;
@@ -271,9 +268,10 @@ tbody td{
     margin: 0 auto;
 }
 
+
+
 .miami, .bucharest,.barcelona h2{
     text-align: center;
     font-weight: bold;
     
 }
-
