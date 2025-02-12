@@ -61,3 +61,52 @@ a:hover p {
     color: black;
     
 }
+
+.myprofile{
+    margin: 0 auto;
+    width: 180px;
+    height: 40vh;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.myprofile img{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px grey;
+}
+.header h1{
+    width: 170px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.container-skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+.container-skills h5{ 
+    font-size: 16px;
+    font-weight: bold;
+}
+.container-skills p{
+    width: 100px;
+    color: rgba(0, 0, 0, 0.288);
+    text-align: center;
+    
+    border-radius:3px ;
+    background-color: rgba(128, 128, 128, 0.432);
+}
