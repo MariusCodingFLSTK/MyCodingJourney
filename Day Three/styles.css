@@ -190,15 +190,14 @@ a img {
     object-fit: cover;
 }
 .side-container {
-    width: 240px; /* Adjust the width as needed */
+    width: 240px;
     height: 84vh;
-
-    background-color: #333;
-    color: white;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
     padding: 20px;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
-    position: fixed; /* Fix the sidebar to the left */
-    right: 0;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.74);
+    position: fixed; 
+    right: 12px;
     margin-top: 10vh;
     border-radius: 12px;
 }
@@ -278,4 +277,81 @@ a img {
 
 .job-card > * {
     flex: 1; 
+}
+.filter-container {
+    height: 74vh;
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.filter-container h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.filter-section {height: 15vh;
+    margin-bottom: 20px;
+}
+
+.filter-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.filter-header h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.clear-btn {
+    background-color: #e0e0e0;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.clear-btn:hover {
+    background-color: #ff0000;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.37);
+}
+
+.filter-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.filter-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    font-size: 14px;
+    color: #333;
+}
+
+.filter-option input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.job-count {
+    color: #666;
 }
